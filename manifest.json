@@ -5,7 +5,8 @@
     "description": "Hacker News Enhanced.",
     "manifest_version": 3,
     "background": {
-      "scripts": ["background.js"]
+      "service_worker": "service_worker.js",
+      "type": "module"
     },
     "permissions": [
       "storage",
